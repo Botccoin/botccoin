@@ -1,0 +1,6 @@
+usr/local/bin/Botccoin-qt usr/bin
+share/pixmaps/Botccoin32.xpm usr/share/pixmaps
+share/pixmaps/Botccoin16.xpm usr/share/pixmaps
+share/pixmaps/Botccoin128.png usr/share/pixmaps
+debian/Botccoin-qt.desktop usr/share/applications
+debian/Botccoin-qt.protocol usr/share/kde4/services/

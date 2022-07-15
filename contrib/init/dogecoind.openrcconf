@@ -1,0 +1,33 @@
+# /etc/conf.d/Botccoind: config file for /etc/init.d/Botccoind
+
+# Config file location
+#BotccoinD_CONFIGFILE="/etc/Botccoin/Botccoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BotccoinD_USER)
+#BotccoinD_PIDDIR="/var/run/Botccoind"
+
+# What filename to give the pidfile
+#BotccoinD_PIDFILE="${BotccoinD_PIDDIR}/Botccoind.pid"
+
+# Where to write Botccoind data (be mindful that the blockchain is large)
+#BotccoinD_DATADIR="/var/lib/Botccoind"
+
+# User and group to own Botccoind process
+#BotccoinD_USER="Botccoin"
+#BotccoinD_GROUP="Botccoin"
+
+# Path to Botccoind executable
+#BotccoinD_BIN="/usr/bin/Botccoind"
+
+# Nice value to run Botccoind under
+#BotccoinD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BotccoinD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for Botccoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BotccoinD_SIGTERM_TIMEOUT=60

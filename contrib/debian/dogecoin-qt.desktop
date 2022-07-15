@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Botccoin Core
+Comment=Connect to the Botccoin P2P Network
+Comment[de]=Verbinde mit dem Botccoin peer-to-peer Netzwerk
+Comment[fr]=Botccoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Botccoin, eşten eşe kriptografik sanal para birimi
+Exec=Botccoin-qt %u
+Terminal=false
+Type=Application
+Icon=Botccoin128
+MimeType=x-scheme-handler/Botccoin;
+Categories=Office;Finance;
